@@ -1,4 +1,7 @@
 CustomApp::Application.routes.draw do
+  resources :rides
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
